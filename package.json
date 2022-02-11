@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mongodb": "^4.3.1",
+    "mongoose": "^6.1.8",
+    "nodemon": "^2.0.15"
+  },
+  "name": "myblog_backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11"
+  },
+  "scripts": {
+        "install-client": "cd client && npm install",
+        "start": "node server.js",
+        "heroku-postbuild": "cd client && npm install --only=dev &&npm install mini-css-extract-plugin && npm install && npm run build"
+        
+       
+  },
+  "engines":{
+    "node": "17.3.0"
+  },
+  "author": "SPN",
+  "license": "ISC",
+  "description": "SPN Blog-app"
+}

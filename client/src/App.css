@@ -1,0 +1,10 @@
+.App{
+  background-image: -webkit-linear-gradient(-30deg, #052157 0%, #91039f 100%);
+
+    text-align: justify;
+    display: grid;
+    background-image:"./public/bg.jpg";
+    text-shadow: darkcyan;
+  background-size: cover;
+  
+}
